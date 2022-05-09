@@ -256,6 +256,7 @@
     <Compile Include="Kata7\ComplementaryDNA.cs" />
     <Compile Include="Kata7\GrowthOfPopulation.cs" />
     <Compile Include="Kata7\MakeFunctionThatDoesArithmetic.cs" />
+    <Compile Include="Kata7\Mumbling.cs" />
     <Compile Include="Kata7\SortNumbers.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
     <Compile Include="Kata8\SumWithoutHighestAndLowest.cs" />
@@ -270,6 +271,7 @@
     <None Include="Kata7\Benchmarks\GrowthOfPopulation.md" />
     <None Include="Kata7\Benchmarks\MakeFunctionThatDoesArithmetic.md" />
     <None Include="Kata7\Benchmarks\SortNumbers.md" />
+    <None Include="Kata8\Benchmarks\ReturningStrings.md" />
     <None Include="Kata8\Benchmarks\StringRepeat Benchmark.md" />
     <None Include="Kata8\Benchmarks\SumWithoutHighestAndLowest.md" />
     <None Include="packages.config" />
