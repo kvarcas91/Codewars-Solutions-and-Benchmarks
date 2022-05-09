@@ -1,3 +1,3 @@
-# Codewars-Solutions-and-Benchmarks
+# **Codewars** Solutions and Benchmarks
 
 Please check WIKI for all the benchmarks
