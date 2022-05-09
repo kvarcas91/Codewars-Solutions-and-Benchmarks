@@ -259,6 +259,7 @@
     <Compile Include="Kata7\MakeFunctionThatDoesArithmetic.cs" />
     <Compile Include="Kata7\Mumbling.cs" />
     <Compile Include="Kata7\SortNumbers.cs" />
+    <Compile Include="Kata7\StringEndsWith.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
     <Compile Include="Kata8\SumWithoutHighestAndLowest.cs" />
     <Compile Include="Program.cs" />

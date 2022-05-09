@@ -19,7 +19,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<MakeFunctionThatDoesArithmetic>();
             // var results = BenchmarkRunner.Run<ReturningStrings>();
             // var results = BenchmarkRunner.Run<Mumbling>();
-            var results = BenchmarkRunner.Run<TwoSum>();
+            // var results = BenchmarkRunner.Run<TwoSum>();
+            var results = BenchmarkRunner.Run<StringEndsWith>();
         }
     }
 }
