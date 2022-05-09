@@ -12,8 +12,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<StringRepeat>();
             // var results = BenchmarkRunner.Run<SumWithoutHighestAndLowest>();
             // var results = BenchmarkRunner.Run<CheckTheExam>();
-            var results = BenchmarkRunner.Run<SortNumbers>();
-
+            // var results = BenchmarkRunner.Run<SortNumbers>();
+            var results = BenchmarkRunner.Run<GrowthOfPopulation>();
         }
     }
 }
