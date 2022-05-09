@@ -7,7 +7,8 @@ namespace Bench
     {
         static void Main(string[] args)
         {
-            var results = BenchmarkRunner.Run<StringRepeat>();
+            // var results = BenchmarkRunner.Run<StringRepeat>();
+            var results = BenchmarkRunner.Run<SumWithoutHighestAndLowest>();
 
         }
     }
