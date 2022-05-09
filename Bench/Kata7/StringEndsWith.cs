@@ -14,10 +14,12 @@ namespace Bench.Kata7
     {
         [Benchmark(Baseline = true)]
         [Arguments("samurai", "ai")]
+        [Arguments("someRandomkindofLongentryWhichShouldCostabitofmoreComputanionalPower", "ower")]
         public bool EndsWith(string str, string ending) => str.EndsWith(ending);
 
         [Benchmark]
         [Arguments("samurai", "ai")]
+        [Arguments("someRandomkindofLongentryWhichShouldCostabitofmoreComputanionalPower", "ower")]
         public bool ForLoop(string str, string ending)
         {
             if (str == null || ending == null || ending.Length > str.Length)
@@ -42,10 +44,32 @@ namespace Bench.Kata7
 
         [Benchmark]
         [Arguments("samurai", "ai")]
+        [Arguments("someRandomkindofLongentryWhichShouldCostabitofmoreComputanionalPower", "ower")]
+        public bool ForLoopV2(string str, string ending)
+        {
+            if (str == null || ending == null || ending.Length > str.Length)
+                return false;
+            if (ending.Length == 0 || ReferenceEquals(str, ending))
+                return true;
+            
+            var strEndIndex = str.Length - 1;
+            for (int i = ending.Length - 1; i >= 0; i--)
+            {
+                if (ending[i] != str[strEndIndex]) return false;
+                strEndIndex--;
+            }
+
+            return true;
+        }
+
+        [Benchmark]
+        [Arguments("samurai", "ai")]
+        [Arguments("someRandomkindofLongentryWhichShouldCostabitofmoreComputanionalPower", "ower")]
         public bool SubStringsEqual(string str, string ending) => (str.Length >= ending.Length) && str.Substring(str.Length - ending.Length).Equals(ending);
 
         [Benchmark]
         [Arguments("samurai", "ai")]
+        [Arguments("someRandomkindofLongentryWhichShouldCostabitofmoreComputanionalPower", "ower")]
         public bool RemoveEqual(string str, string ending)
         {
             if (ending.Length > str.Length)
