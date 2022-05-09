@@ -1,3 +1,14 @@
+
+## Challenge
+
+Write a function called repeatStr which repeats the given string *string* exactly **n** times.
+
+```c#
+repeatStr(6, "I") // "IIIIII"
+repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
+```
+---
+
 ``` ini
 
 BenchmarkDotNet=v0.13.1, OS=Windows 10.0.22616
@@ -8,6 +19,8 @@ Intel Core i9-9980HK CPU 2.40GHz, 1 CPU, 16 logical and 8 physical cores
 Job=.NET Framework 4.8  Runtime=.NET Framework 4.8  
 
 ```
+
+
 |                     Method | repeatCount |  text |         Mean |     Error |    StdDev |       Median | Ratio | RatioSD |   Gen 0 |  Gen 1 | Allocated |
 |--------------------------- |------------ |------ |-------------:|----------:|----------:|-------------:|------:|--------:|--------:|-------:|----------:|
 |  StringAppendWithRecursion |           2 | hello |     19.64 ns |  0.411 ns |  0.384 ns |     19.69 ns |  0.42 |    0.01 |  0.0069 |      - |      36 B |
