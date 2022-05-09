@@ -255,6 +255,7 @@
     <Compile Include="Kata7\CheckTheExam.cs" />
     <Compile Include="Kata7\ComplementaryDNA.cs" />
     <Compile Include="Kata7\GrowthOfPopulation.cs" />
+    <Compile Include="Kata7\MakeFunctionThatDoesArithmetic.cs" />
     <Compile Include="Kata7\SortNumbers.cs" />
     <Compile Include="Kata8\SumWithoutHighestAndLowest.cs" />
     <Compile Include="Program.cs" />

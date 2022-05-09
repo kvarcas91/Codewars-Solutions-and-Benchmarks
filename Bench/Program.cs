@@ -14,7 +14,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<CheckTheExam>();
             // var results = BenchmarkRunner.Run<SortNumbers>();
             // var results = BenchmarkRunner.Run<GrowthOfPopulation>();
-            var results = BenchmarkRunner.Run<ComplementaryDNA>();
+            // var results = BenchmarkRunner.Run<ComplementaryDNA>();
+            var results = BenchmarkRunner.Run<MakeFunctionThatDoesArithmetic>();
         }
     }
 }
