@@ -76,5 +76,21 @@ namespace Bench.Kata6
             }
             return new int[0];
         }
+
+        [Benchmark]
+        [ArgumentsSource(nameof(DataList))]
+        public int[] Random(int[] numbers, int target)
+        {
+            int[] arr = new int[2];
+            Random rand = new Random();
+            while (true)
+            {
+                arr[0] = rand.Next(0, numbers.Length);
+                arr[1] = rand.Next(0, numbers.Length);
+                if (arr[0] == arr[1]) continue;
+                if (numbers[arr[0]] + numbers[arr[1]] == target) break;
+            }
+            return arr.OrderBy(a => a).ToArray();
+        }
     }
 }
