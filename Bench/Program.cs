@@ -1,4 +1,5 @@
-﻿using Bench.Kata7;
+﻿using Bench.Kata6;
+using Bench.Kata7;
 using Bench.Kata8;
 using BenchmarkDotNet.Running;
 using System.Linq;
@@ -17,8 +18,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<ComplementaryDNA>();
             // var results = BenchmarkRunner.Run<MakeFunctionThatDoesArithmetic>();
             // var results = BenchmarkRunner.Run<ReturningStrings>();
-            var results = BenchmarkRunner.Run<Mumbling>();
-
+            // var results = BenchmarkRunner.Run<Mumbling>();
+            var results = BenchmarkRunner.Run<TwoSum>();
         }
     }
 }

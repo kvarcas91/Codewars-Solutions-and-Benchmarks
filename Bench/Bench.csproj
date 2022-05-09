@@ -252,6 +252,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Kata6\TwoSum.cs" />
     <Compile Include="Kata7\CheckTheExam.cs" />
     <Compile Include="Kata7\ComplementaryDNA.cs" />
     <Compile Include="Kata7\GrowthOfPopulation.cs" />
@@ -270,6 +271,7 @@
     <None Include="Kata7\Benchmarks\ComplementaryDNA.md" />
     <None Include="Kata7\Benchmarks\GrowthOfPopulation.md" />
     <None Include="Kata7\Benchmarks\MakeFunctionThatDoesArithmetic.md" />
+    <None Include="Kata7\Benchmarks\Mumbling.md" />
     <None Include="Kata7\Benchmarks\SortNumbers.md" />
     <None Include="Kata8\Benchmarks\ReturningStrings.md" />
     <None Include="Kata8\Benchmarks\StringRepeat Benchmark.md" />
@@ -280,7 +282,9 @@
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.Analyzers.dll" />
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.Analyzers.2.6.1\analyzers\dotnet\cs\Microsoft.CodeAnalysis.CSharp.Analyzers.dll" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Kata6\Benchmarks\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
