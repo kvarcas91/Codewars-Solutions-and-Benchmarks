@@ -271,6 +271,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Kata5\Benchmarks\ROT13.md" />
+    <None Include="Kata6\Benchmarks\ArrayDiff.md" />
     <None Include="Kata6\Benchmarks\TwoSum.md" />
     <None Include="Kata7\Benchmarks\CheckTheExam.md" />
     <None Include="Kata7\Benchmarks\ComplementaryDNA.md" />

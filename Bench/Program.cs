@@ -14,7 +14,7 @@ namespace Bench
             // var results = BenchmarkRunner.Run<StringRepeat>();
             // var results = BenchmarkRunner.Run<SumWithoutHighestAndLowest>();
             // var results = BenchmarkRunner.Run<CheckTheExam>();
-            // var results = BenchmarkRunner.Run<SortNumbers>();
+             var results = BenchmarkRunner.Run<SortNumbers>();
             // var results = BenchmarkRunner.Run<GrowthOfPopulation>();
             // var results = BenchmarkRunner.Run<ComplementaryDNA>();
             // var results = BenchmarkRunner.Run<MakeFunctionThatDoesArithmetic>();
@@ -23,7 +23,7 @@ namespace Bench
             // var results = BenchmarkRunner.Run<TwoSum>();
             // var results = BenchmarkRunner.Run<StringEndsWith>();
             // var results = BenchmarkRunner.Run<ROT13>();
-            var results = BenchmarkRunner.Run<ArrayDiff>();
+            // var results = BenchmarkRunner.Run<ArrayDiff>();
         }
 
        

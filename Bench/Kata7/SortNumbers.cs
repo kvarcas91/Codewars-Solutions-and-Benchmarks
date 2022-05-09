@@ -24,6 +24,7 @@ namespace Bench.Kata7
             yield return Enumerable.Range(0, 5).Reverse().ToArray();
             yield return Enumerable.Range(0, 50).Reverse().ToArray();
             yield return Enumerable.Range(0, 500).Reverse().ToArray();
+            yield return Enumerable.Range(0, 5000).Reverse().ToArray();
         }
 
         [Benchmark(Baseline = true)]
@@ -68,24 +69,56 @@ namespace Bench.Kata7
         [ArgumentsSource(nameof(DataList))]
         public int[] BubbleSort(int[] nums)
         {
-            if (nums != null)
+            if (nums == null || nums.Length == 0) return new int[0];
+
+            for (int p = 0; p <= nums.Length - 2; p++)
+                for (int i = 0; i <= nums.Length - 2; i++)
+                    if (nums[i] > nums[i + 1]) (nums[i], nums[i + 1]) = (nums[i + 1], nums[i]);
+            return nums;
+        }
+
+        [Benchmark]
+        [ArgumentsSource(nameof(DataList))]
+        public int[] MergeSort(int[] nums) => Merge(nums, 0, nums.Length - 1);
+
+        public int[] Merge(int[] array, int left = -1, int right = -1)
+        {
+            if (left == -1 && right == -1)
             {
-                int temp;
-                for (int i = 0; i < nums.Length - 1; i++)
-                {
-                    for (int j = i + 1; j < nums.Length; j++)
-                    {
-                        if (nums[i] > nums[j])
-                        {
-                            temp = nums[i];
-                            nums[i] = nums[j];
-                            nums[j] = temp;
-                        }
-                    }
-                }
-                return nums;
+                left = 0; right = array.Length - 1;
             }
-            return new int[] { };
+
+            if (left < right)
+            {
+                int middle = left + (right - left) / 2;
+                Merge(array, left, middle);
+                Merge(array, middle + 1, right);
+
+                var leftArrayLength = middle - left + 1;
+                var rightArrayLength = right - middle;
+                var leftTempArray = new int[leftArrayLength];
+                var rightTempArray = new int[rightArrayLength];
+                int i, j;
+
+                for (i = 0; i < leftArrayLength; ++i) leftTempArray[i] = array[left + i];
+                for (j = 0; j < rightArrayLength; ++j) rightTempArray[j] = array[middle + 1 + j];
+
+                i = 0;
+                j = 0;
+                int k = left;
+
+                while (i < leftArrayLength && j < rightArrayLength)
+                {
+                    if (leftTempArray[i] <= rightTempArray[j]) array[k++] = leftTempArray[i++];
+                    else array[k++] = rightTempArray[j++];
+                }
+
+                while (i < leftArrayLength) array[k++] = leftTempArray[i++];
+                while (j < rightArrayLength) array[k++] = rightTempArray[j++];
+
+            }
+
+            return array;
         }
     }
 
@@ -126,4 +159,5 @@ namespace Bench.Kata7
             }
         }
     }
+
 }
