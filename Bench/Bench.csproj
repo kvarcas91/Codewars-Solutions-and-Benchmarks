@@ -264,6 +264,7 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="Kata7\Benchmarks\CheckTheExam.md" />
+    <None Include="Kata7\Benchmarks\ComplementaryDNA.md" />
     <None Include="Kata7\Benchmarks\GrowthOfPopulation.md" />
     <None Include="Kata7\Benchmarks\SortNumbers.md" />
     <None Include="Kata8\Benchmarks\StringRepeat Benchmark.md" />

@@ -102,6 +102,38 @@ namespace Bench.Kata7
         [Benchmark]
         [Arguments("ATGCTTCAGAAAGGTCTTACG")]
         [Arguments("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC")]
+        public string StringAppendForEach(string dna)
+        {
+            if (string.IsNullOrEmpty(dna)) return string.Empty;
+            var output = string.Empty;
+
+            foreach (var c in dna)
+            {
+                switch (c)
+                {
+                    case 'A':
+                        output += 'T';
+                        break;
+                    case 'T':
+                        output += 'A';
+                        break;
+                    case 'C':
+                        output += 'G';
+                        break;
+                    case 'G':
+                        output += 'C';
+                        break;
+                    default:
+                        output += c;
+                        break;
+                }
+            }
+            return output;
+        }
+
+        [Benchmark]
+        [Arguments("ATGCTTCAGAAAGGTCTTACG")]
+        [Arguments("AGCTTTTCATTCTGACTGCAACGGGCAATATGTCTCTGTGTGGATTAAAAAAAGAGTGTCTGATAGCAGC")]
         public string ArrayCharReplaceWithForLoop(string dna)
         {
             var array = dna.ToCharArray();
