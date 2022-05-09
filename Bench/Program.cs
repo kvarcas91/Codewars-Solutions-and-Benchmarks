@@ -22,8 +22,10 @@ namespace Bench
             // var results = BenchmarkRunner.Run<Mumbling>();
             // var results = BenchmarkRunner.Run<TwoSum>();
             // var results = BenchmarkRunner.Run<StringEndsWith>();
-            var results = BenchmarkRunner.Run<ROT13>();
-
+            // var results = BenchmarkRunner.Run<ROT13>();
+            var results = BenchmarkRunner.Run<ArrayDiff>();
         }
+
+       
     }
 }
