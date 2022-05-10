@@ -17,6 +17,7 @@ encrypt("01234", 3)  =>  "13024"  ->  "32104"  ->  "20314"
 Together with the encryption function, you should also implement a decryption function which reverses the process.
 
 If the string *S* is an empty value or the integer *N* is not positive, return the first argument without changes.
+
 ---
 
 ``` ini
