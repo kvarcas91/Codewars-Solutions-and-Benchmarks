@@ -254,6 +254,7 @@
   <ItemGroup>
     <Compile Include="Kata5\ROT13.cs" />
     <Compile Include="Kata6\ArrayDiff.cs" />
+    <Compile Include="Kata6\TitleCase.cs" />
     <Compile Include="Kata6\TwoSum.cs" />
     <Compile Include="Kata7\CheckTheExam.cs" />
     <Compile Include="Kata7\ComplementaryDNA.cs" />
