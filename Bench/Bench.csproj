@@ -254,6 +254,7 @@
   <ItemGroup>
     <Compile Include="Kata5\ROT13.cs" />
     <Compile Include="Kata6\ArrayDiff.cs" />
+    <Compile Include="Kata6\SimpleEncryption-AlternatingSplit.cs" />
     <Compile Include="Kata6\TitleCase.cs" />
     <Compile Include="Kata6\TwoSum.cs" />
     <Compile Include="Kata7\CheckTheExam.cs" />
@@ -273,6 +274,7 @@
     <None Include="App.config" />
     <None Include="Kata5\Benchmarks\ROT13.md" />
     <None Include="Kata6\Benchmarks\ArrayDiff.md" />
+    <None Include="Kata6\Benchmarks\TitleCase.md" />
     <None Include="Kata6\Benchmarks\TwoSum.md" />
     <None Include="Kata7\Benchmarks\CheckTheExam.md" />
     <None Include="Kata7\Benchmarks\ComplementaryDNA.md" />

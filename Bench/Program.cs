@@ -24,7 +24,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<StringEndsWith>();
             // var results = BenchmarkRunner.Run<ROT13>();
             // var results = BenchmarkRunner.Run<ArrayDiff>();
-            var results = BenchmarkRunner.Run<TitleCase>();
+            // var results = BenchmarkRunner.Run<TitleCase>();
+            var results = BenchmarkRunner.Run<SimpleEncryption_AlternatingSplit>();
 
         }
 
