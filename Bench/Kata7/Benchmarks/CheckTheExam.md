@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata7/CheckTheExam.cs)
 
 The first input array is the key to the correct answers to an exam, like ["a", "a", "b", "d"]. The second one contains a student's submitted answers.
 
@@ -14,6 +14,7 @@ checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]) ? 7
 checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]) ? 16
 checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]) ? 0
 ```
+
 ---
 
 ``` ini

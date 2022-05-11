@@ -294,6 +294,7 @@
     <None Include="Kata7\Benchmarks\StringEndsWith.md" />
     <None Include="Kata8\Benchmarks\CatYearsDogYears.md" />
     <None Include="Kata8\Benchmarks\CheckSameCase.md" />
+    <None Include="Kata8\Benchmarks\FindMultiplesOfNumber.md" />
     <None Include="Kata8\Benchmarks\HelloNameOrWorld.md" />
     <None Include="Kata8\Benchmarks\ReturningStrings.md" />
     <None Include="Kata8\Benchmarks\StringCleaning.md" />

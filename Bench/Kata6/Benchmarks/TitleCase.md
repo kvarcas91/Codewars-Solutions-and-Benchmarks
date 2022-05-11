@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata6/SimpleEncryption-TitleCase.cs)
 
 A string is considered to be in title case if each word in the string is either (a) capitalised (that is, only the first letter of the word is in upper case) or (b) considered to be an exception and put entirely into lower case unless it is the first word, which is always capitalised.
 
@@ -19,6 +19,7 @@ Kata.TitleCase("THE WIND IN THE WILLOWS", "The In") => "The Wind in the Willows"
 Kata.TitleCase("the quick brown fox")               => "The Quick Brown Fox"
 
 ```
+
 ---
 
 ``` ini

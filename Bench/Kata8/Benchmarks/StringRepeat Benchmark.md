@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata8/StringRepeat.cs)
 
 Write a function called repeatStr which repeats the given string *string* exactly **n** times.
 

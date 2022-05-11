@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata8/ReturningStrings.cs)
 
 Make a function that will return a greeting statement that uses an input; your program should return, "Hello, *<name> how are you doing today?"*.
 

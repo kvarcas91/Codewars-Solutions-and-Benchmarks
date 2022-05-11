@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata8/StringyString.cs)
 
 write me a function *stringy* that takes a *size* and returns a *string* of alternating *'1s'* and *'0s'*.
 

@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata8/HelloNameOrWorld.cs)
 
 Define a method *hello* that *returns* "Hello, Name!" to a given *name*, or says Hello, World! if name is not given (or passed as an empty String).
 

@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata7/AnagramDetection.cs)
 
 An anagram is the result of rearranging the letters of a word to produce a new word.
 

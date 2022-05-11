@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata7/Mumbling.cs)
 
 This time no story, no theory. The examples below show you how to write function accum:
 

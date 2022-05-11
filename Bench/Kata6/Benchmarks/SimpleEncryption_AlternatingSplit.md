@@ -1,4 +1,4 @@
-## Challenge
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata6/SimpleEncryption-AlternatingSplit.cs)
 
 Implement a pseudo-encryption algorithm which given a string *S* and an integer *N* concatenates all the odd-indexed characters of *S* with all the even-indexed characters of *S*, this process should be repeated *N* times.
 
