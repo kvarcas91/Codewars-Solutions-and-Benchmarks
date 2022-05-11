@@ -27,7 +27,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<ArrayDiff>();
             // var results = BenchmarkRunner.Run<TitleCase>();
             // var results = BenchmarkRunner.Run<SimpleEncryption_AlternatingSplit>();
-            var results = BenchmarkRunner.Run<CatYearsDogYears>();
+            // var results = BenchmarkRunner.Run<CatYearsDogYears>();
+            var results = BenchmarkRunner.Run<HelloNameOrWorld>();
         }
 
        
