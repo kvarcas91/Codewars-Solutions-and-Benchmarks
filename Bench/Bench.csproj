@@ -268,6 +268,7 @@
     <Compile Include="Kata8\CatYearsDogYears.cs" />
     <Compile Include="Kata8\HelloNameOrWorld.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
+    <Compile Include="Kata8\StringCleaning.cs" />
     <Compile Include="Kata8\SumWithoutHighestAndLowest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -280,6 +281,7 @@
     <None Include="Kata6\Benchmarks\SimpleEncryption_AlternatingSplit.md" />
     <None Include="Kata6\Benchmarks\TitleCase.md" />
     <None Include="Kata6\Benchmarks\TwoSum.md" />
+    <None Include="Kata7\Benchmarks\AnagramDetection.md" />
     <None Include="Kata7\Benchmarks\CheckTheExam.md" />
     <None Include="Kata7\Benchmarks\ComplementaryDNA.md" />
     <None Include="Kata7\Benchmarks\GrowthOfPopulation.md" />
