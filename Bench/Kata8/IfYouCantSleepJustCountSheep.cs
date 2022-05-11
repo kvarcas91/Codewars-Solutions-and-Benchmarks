@@ -13,7 +13,7 @@ namespace Bench.Kata8
     [SimpleJob(RuntimeMoniker.Net48)]
     [Orderer(SummaryOrderPolicy.FastestToSlowest, MethodOrderPolicy.Declared)]
     [MemoryDiagnoser]
-    public class IfYouCantSleeJustCountSheep
+    public class IfYouCantSleepJustCountSheep
     {
 
         public IEnumerable<int> DataList()
