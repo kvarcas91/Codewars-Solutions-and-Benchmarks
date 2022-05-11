@@ -269,6 +269,7 @@
     <Compile Include="Kata8\CheckSameCase.cs" />
     <Compile Include="Kata8\FindMultiplesOfNumber.cs" />
     <Compile Include="Kata8\HelloNameOrWorld.cs" />
+    <Compile Include="Kata8\IfYouCantSleeJustCountSheep.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
     <Compile Include="Kata8\StringCleaning.cs" />
     <Compile Include="Kata8\StringyString.cs" />
