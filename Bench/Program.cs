@@ -3,6 +3,7 @@ using Bench.Kata6;
 using Bench.Kata7;
 using Bench.Kata8;
 using BenchmarkDotNet.Running;
+using System;
 using System.Linq;
 
 namespace Bench
@@ -25,8 +26,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<ROT13>();
             // var results = BenchmarkRunner.Run<ArrayDiff>();
             // var results = BenchmarkRunner.Run<TitleCase>();
-            var results = BenchmarkRunner.Run<SimpleEncryption_AlternatingSplit>();
-
+            // var results = BenchmarkRunner.Run<SimpleEncryption_AlternatingSplit>();
+            var results = BenchmarkRunner.Run<CatYearsDogYears>();
         }
 
        

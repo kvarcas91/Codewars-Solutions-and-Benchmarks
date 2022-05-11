@@ -264,6 +264,7 @@
     <Compile Include="Kata7\Mumbling.cs" />
     <Compile Include="Kata7\SortNumbers.cs" />
     <Compile Include="Kata7\StringEndsWith.cs" />
+    <Compile Include="Kata8\CatYearsDogYears.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
     <Compile Include="Kata8\SumWithoutHighestAndLowest.cs" />
     <Compile Include="Program.cs" />
@@ -274,6 +275,7 @@
     <None Include="App.config" />
     <None Include="Kata5\Benchmarks\ROT13.md" />
     <None Include="Kata6\Benchmarks\ArrayDiff.md" />
+    <None Include="Kata6\Benchmarks\SimpleEncryption_AlternatingSplit.md" />
     <None Include="Kata6\Benchmarks\TitleCase.md" />
     <None Include="Kata6\Benchmarks\TwoSum.md" />
     <None Include="Kata7\Benchmarks\CheckTheExam.md" />
