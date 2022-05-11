@@ -1,4 +1,4 @@
-## Challenge [(solution)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata8/CatYearsDogYears.cs)
+## Challenge [(solutions)](https://github.com/kvarcas91/Codewars-Solutions-and-Benchmarks/blob/master/Bench/Kata8/CatYearsDogYears.cs)
 
 I have a cat and a dog.
 
