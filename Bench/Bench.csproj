@@ -270,6 +270,7 @@
     <Compile Include="Kata8\HelloNameOrWorld.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
     <Compile Include="Kata8\StringCleaning.cs" />
+    <Compile Include="Kata8\StringyString.cs" />
     <Compile Include="Kata8\SumWithoutHighestAndLowest.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -291,6 +292,7 @@
     <None Include="Kata7\Benchmarks\SortNumbers.md" />
     <None Include="Kata7\Benchmarks\StringEndsWith.md" />
     <None Include="Kata8\Benchmarks\CatYearsDogYears.md" />
+    <None Include="Kata8\Benchmarks\CheckSameCase.md" />
     <None Include="Kata8\Benchmarks\HelloNameOrWorld.md" />
     <None Include="Kata8\Benchmarks\ReturningStrings.md" />
     <None Include="Kata8\Benchmarks\StringCleaning.md" />

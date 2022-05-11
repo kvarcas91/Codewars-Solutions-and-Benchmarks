@@ -32,8 +32,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<HelloNameOrWorld>();
             // var results = BenchmarkRunner.Run<AnagramDetection>();
             // var results = BenchmarkRunner.Run<StringCleaning>();
-            var results = BenchmarkRunner.Run<CheckSameCase>();
-
+            // var results = BenchmarkRunner.Run<CheckSameCase>();
+            var results = BenchmarkRunner.Run<StringyString>();
         }
        
     }
