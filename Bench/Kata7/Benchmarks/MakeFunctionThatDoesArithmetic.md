@@ -14,6 +14,7 @@ For example:
 5, 2, "multiply" --> 10
 5, 2, "divide"   --> 2.5
 ```
+
 ---
 
 ``` ini

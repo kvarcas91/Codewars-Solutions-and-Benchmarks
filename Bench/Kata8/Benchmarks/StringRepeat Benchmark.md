@@ -6,6 +6,7 @@ Write a function called repeatStr which repeats the given string *string* exactl
 repeatStr(6, "I") // "IIIIII"
 repeatStr(5, "Hello") // "HelloHelloHelloHelloHello"
 ```
+
 ---
 
 ``` ini
