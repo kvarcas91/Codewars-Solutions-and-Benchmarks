@@ -6,6 +6,7 @@ using BenchmarkDotNet.Running;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Numerics;
 
 namespace Bench
 {
@@ -36,9 +37,8 @@ namespace Bench
             // var results = BenchmarkRunner.Run<StringyString>();
             // var results = BenchmarkRunner.Run<FindMultiplesOfNumber>();
             // var results = BenchmarkRunner.Run<IfYouCantSleepJustCountSheep>();
-            var results = BenchmarkRunner.Run<SummingNumberDigits>();
-
-
+            // var results = BenchmarkRunner.Run<SummingNumberDigits>();
+            var results = BenchmarkRunner.Run<GravityFlip>();
 
         }
     }

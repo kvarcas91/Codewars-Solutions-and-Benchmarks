@@ -269,6 +269,7 @@
     <Compile Include="Kata8\CatYearsDogYears.cs" />
     <Compile Include="Kata8\CheckSameCase.cs" />
     <Compile Include="Kata8\FindMultiplesOfNumber.cs" />
+    <Compile Include="Kata8\GravityFlip.cs" />
     <Compile Include="Kata8\HelloNameOrWorld.cs" />
     <Compile Include="Kata8\IfYouCantSleepJustCountSheep.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
@@ -294,6 +295,7 @@
     <None Include="Kata7\Benchmarks\Mumbling.md" />
     <None Include="Kata7\Benchmarks\SortNumbers.md" />
     <None Include="Kata7\Benchmarks\StringEndsWith.md" />
+    <None Include="Kata7\Benchmarks\SummingNumberDigits.md" />
     <None Include="Kata8\Benchmarks\CatYearsDogYears.md" />
     <None Include="Kata8\Benchmarks\CheckSameCase.md" />
     <None Include="Kata8\Benchmarks\FindMultiplesOfNumber.md" />
