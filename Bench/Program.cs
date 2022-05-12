@@ -35,7 +35,9 @@ namespace Bench
             // var results = BenchmarkRunner.Run<CheckSameCase>();
             // var results = BenchmarkRunner.Run<StringyString>();
             // var results = BenchmarkRunner.Run<FindMultiplesOfNumber>();
-            var results = BenchmarkRunner.Run<IfYouCantSleepJustCountSheep>();
+            // var results = BenchmarkRunner.Run<IfYouCantSleepJustCountSheep>();
+            var results = BenchmarkRunner.Run<SummingNumberDigits>();
+
 
 
         }

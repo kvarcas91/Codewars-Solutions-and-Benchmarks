@@ -265,11 +265,12 @@
     <Compile Include="Kata7\Mumbling.cs" />
     <Compile Include="Kata7\SortNumbers.cs" />
     <Compile Include="Kata7\StringEndsWith.cs" />
+    <Compile Include="Kata7\SummingNumberDigits.cs" />
     <Compile Include="Kata8\CatYearsDogYears.cs" />
     <Compile Include="Kata8\CheckSameCase.cs" />
     <Compile Include="Kata8\FindMultiplesOfNumber.cs" />
     <Compile Include="Kata8\HelloNameOrWorld.cs" />
-    <Compile Include="Kata8\IfYouCantSleeJustCountSheep.cs" />
+    <Compile Include="Kata8\IfYouCantSleepJustCountSheep.cs" />
     <Compile Include="Kata8\ReturningStrings.cs" />
     <Compile Include="Kata8\StringCleaning.cs" />
     <Compile Include="Kata8\StringyString.cs" />
@@ -297,6 +298,7 @@
     <None Include="Kata8\Benchmarks\CheckSameCase.md" />
     <None Include="Kata8\Benchmarks\FindMultiplesOfNumber.md" />
     <None Include="Kata8\Benchmarks\HelloNameOrWorld.md" />
+    <None Include="Kata8\Benchmarks\IfYouCantSleeJustCountSheep.md" />
     <None Include="Kata8\Benchmarks\ReturningStrings.md" />
     <None Include="Kata8\Benchmarks\StringCleaning.md" />
     <None Include="Kata8\Benchmarks\StringRepeat Benchmark.md" />
